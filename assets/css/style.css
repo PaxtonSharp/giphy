@@ -10,7 +10,9 @@ h1 {
     font-weight: 800;
 }
 
-label, h1, #clear-message {
+label,
+h1,
+#clear-message {
     color: white;
 }
 
@@ -23,14 +25,14 @@ form {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
 }
 
 #clear-results {
     width: 10em;
 }
 
-#clear-results, #submit-button{
+#clear-results,
+#submit-button {
     margin-left: .5em;
     background-color: maroon;
     border: 1px solid gold;
@@ -39,8 +41,6 @@ form {
 #btn-star {
     padding: .9em;
 }
-
-
 
 .recent-search {
     display: flex;
@@ -53,7 +53,6 @@ form {
     column-count: 3;
     column-gap: 1em;
 }
-
 
 .giphy {
     border: 1px solid navy;
@@ -108,7 +107,6 @@ form {
     background-color: maroon;
 }
 
-
 .giphy-info {
     display: flex;
     justify-content: space-between;
@@ -127,11 +125,10 @@ form {
 .buttons {
     border-radius: .5em;
     margin-left: 10px;
-    background-color: maroon; 
+    background-color: maroon;
     margin-bottom: 1em;
     border: 1px solid #fff1e9;
 }
-
 
 .active {
     background-color: gold;
@@ -150,7 +147,6 @@ form {
 .buttons .btn:focus {
     box-shadow: none;
 }
-
 
 .buttons .btn-close {
     border-radius: 0;
